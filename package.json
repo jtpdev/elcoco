@@ -1,0 +1,19 @@
+{
+  "name": "electron-coco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "elmain.js",
+  "dependencies": {
+    "npm": "^6.1.0"
+  },
+  "devDependencies": {
+    "electron": "^2.0.4",
+    "electron-packager": "^12.1.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "packager": "electron-packager . elcoco --platform=win32 --arch=x64"
+  },
+  "author": "Jimmy Porto",
+  "license": "ISC"
+}
